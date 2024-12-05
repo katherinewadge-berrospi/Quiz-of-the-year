@@ -3,8 +3,20 @@
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .logo {
     height: 6rem;
+}
+
+section {
+    width: 60%;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+div {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
 }
