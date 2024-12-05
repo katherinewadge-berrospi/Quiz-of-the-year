@@ -1,3 +1,7 @@
+body {
+    margin-top: 3rem;
+}
+
 .heading {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -14,17 +18,23 @@ div {
     background-color: beige;
     border: 1px solid black;
     margin:auto;
+    text-align: center;
 }
 
 @media(max-width:1200px){
     body{
         margin: 5px;
+        margin-top: 2.5rem;
     }
-    section{
-        width; 90%;
-    }
+
     div {
-        width:90%;
+        width:80%;
         padding: 1rem;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+    .logo {
+        height: 4rem;
     }
 }
