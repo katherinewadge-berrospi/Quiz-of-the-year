@@ -9,14 +9,22 @@
     height: 6rem;
 }
 
-section {
+div {
     width: 60%;
     background-color: beige;
     border: 1px solid black;
+    margin:auto;
 }
 
-div {
-    background-color: beige;
-    border: 1px solid black;
-    text-align: center;
+@media(max-width:1200px){
+    body{
+        margin: 5px;
+    }
+    section{
+        width; 90%;
+    }
+    div {
+        width:90%;
+        padding: 1rem;
+    }
 }
