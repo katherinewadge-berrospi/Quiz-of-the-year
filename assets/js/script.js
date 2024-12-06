@@ -37,7 +37,7 @@ const questions = [
 
 let quizLength = quiz.length;
 
-// function to load questions
+// functions to load questions and answers
 function loadQuestion(questionNum){
     question.innerText = questions[questionNum].question;
 }
@@ -48,3 +48,20 @@ function loadAnswers(questionNum) {
     answerThree.innerText = questions[questionNum].answers[2];
     answerFour.innerText = questions[questionNum].answers[3];
   }
+
+// checks the answer that was clicked
+function checkCorrect(answerNum){
+    console.log("answer chosen: ", answerNum);
+    let correctAns = questions[questionNum].correct;
+    if (answerNum === correctAns) {
+        scoreNum++;
+        score.innerText = scoreNum;
+    }
+    questionNum++;
+    if (questionNum === quizLength){
+        finish();
+    } else {
+        loadQuestion(questionNum);
+        loadAnswers(questionNum);
+    }
+}
