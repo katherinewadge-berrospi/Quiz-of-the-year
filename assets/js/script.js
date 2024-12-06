@@ -78,3 +78,11 @@ function finishOption(chosen){
         endMessage.innerHTML = "<h2>Thank you for playing!</h2>"
     }
 }
+
+function start(){
+  again.style.visibility = "hidden";
+  loadQuestion(questionNum);
+  loadAnswers(questionNum);
+}
+
+start();
