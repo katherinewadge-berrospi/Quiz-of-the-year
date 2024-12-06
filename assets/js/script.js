@@ -4,7 +4,6 @@ const answerOne = document.getElementById("answerOne");
 const answerTwo = document.getElementById("answerTwo");
 const answerThree = document.getElementById("answerThree");
 const answerFour = document.getElementById("answerFour");
-
 const score = document.getElementById("score");
 const again = document.getElementById("again");
 const wrapper = document.getElementById("wrapper");
@@ -36,7 +35,7 @@ const questions = [
     },
 ]
 
-let quizLength = quiz.length;
+let quizLength = questions.length;
 
 // functions to load questions and answers
 function loadQuestion(questionNum){
