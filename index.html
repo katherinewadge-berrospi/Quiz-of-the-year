@@ -8,7 +8,7 @@
   </head>
 
   <body>
-      <div class="heading">
+      <div class="heading" id="endMessage">
         <h1>
           <img class="logo" src="assets/images/thinking-brain.jpg" alt="brain logo">Quiz of the Year!<img class="logo-two" src="assets/images/year-logo.jpg" alt="2024 logo">
         </h1>
@@ -25,6 +25,11 @@
       <div class="score-area"> 
         <p class="scores">Correct Answers:<span id="correct"> 0</span></p>
         <p class="scores">Incorrect Answers:<span id="incorrect"> 0</span></p>
+      </div>
+      <div id="again">
+        <p>Would you like to play again?</p>
+        <button onclick="finishOption(0)">Yes</button>
+        <button onclick="finishOption(1)">No</button>
       </div>
     <script src="assets/js/script.js"></script>
   </body>
