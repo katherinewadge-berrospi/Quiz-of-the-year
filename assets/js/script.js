@@ -6,7 +6,8 @@ const answerThree = document.getElementById("answerThree");
 const answerFour = document.getElementById("answerFour");
 
 const score = document.getElementById("score");
-const playAgain = document.getElementById("playAgain");
+const again = document.getElementById("again");
+const wrapper = document.getElementById("wrapper");
 
 let questionNum = 0;
 let scoreNum = 0;
@@ -63,5 +64,17 @@ function checkCorrect(answerNum){
     } else {
         loadQuestion(questionNum);
         loadAnswers(questionNum);
+    }
+}
+
+function finish() {
+    again.style.visibility = "visible";
+}
+
+function finishOption(chosen){
+    if (chosen === 0) {
+        window.location.reload()
+    } else {
+        endMessage.innerHTML = "<h2>Thank you for playing!</h2>"
     }
 }
