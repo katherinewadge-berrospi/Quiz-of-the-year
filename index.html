@@ -15,12 +15,14 @@
       </div>
       <div class="quiz-area">
         <p id="question">[question goes here...]</p>
-        <button id="answerOne" onclick="">A1</button>
-        <button id="answerTwe" onclick="">A2</button>
-        <button id="answerThree" onclick="">A3</button>
-        <button id="answerFour" onclick="">A4</button>
+        <!-- answer buttons --> 
+        <button id="answerOne" onclick="checkCorrect(0)">A1</button>
+        <button id="answerTwe" onclick="checkCorrect(1)">A2</button>
+        <button id="answerThree" onclick="checkCorrect(2)">A3</button>
+        <button id="answerFour" onclick="checkCorrect(3)">A4</button>
       </div>
-      <div class="score-area">
+      <!-- score board --> 
+      <div class="score-area"> 
         <p class="scores">Correct Answers:<span id="correct"> 0</span></p>
         <p class="scores">Incorrect Answers:<span id="incorrect"> 0</span></p>
       </div>
