@@ -32,6 +32,16 @@ button {
     padding: 10px;
 }
 
+#correct {
+    color: green;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
+}
+
 @media(max-width:1200px){
     body{
         margin: 5px;
