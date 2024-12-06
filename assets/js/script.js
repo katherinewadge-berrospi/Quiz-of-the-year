@@ -11,6 +11,7 @@ const playAgain = document.getElementById("playAgain");
 let questionNum = 0;
 let scoreNum = 0;
 
+// example questions, final questions still to be added
 const questions = [
     {
         "question": "What is question 1?",
@@ -33,3 +34,17 @@ const questions = [
         "correct": 1
     },
 ]
+
+let quizLength = quiz.length;
+
+// function to load questions
+function loadQuestion(questionNum){
+    question.innerText = questions[questionNum].question;
+}
+
+function loadAnswers(questionNum) {
+    answerOne.innerText = questions[questionNum].answers[0];
+    answerTwo.innerText = questions[questionNum].answers[1];
+    answerThree.innerText = questions[questionNum].answers[2];
+    answerFour.innerText = questions[questionNum].answers[3];
+  }
