@@ -13,22 +13,22 @@ let scoreNum = 0;
 
 const questions = [
     {
-        "question": What is question 1?,
+        "question": "What is question 1?",
         "answers": ["1a", "1b", "1c", "1d"],
         "correct": 2
     },
     {
-        "question": What is question 2?,
+        "question": "What is question 2?",
         "answers": ["2a", "2b", "3c", "4d"],
         "correct": 0
     },
     {
-        "question": What is question 3?,
+        "question": "What is question 3?",
         "answers": ["3a", "3b", "3c", "3d"],
         "correct": 3
     },
     {
-        "question": What is question 4?,
+        "question": "What is question 4?",
         "answers": ["4a", "4b", "4c", "4d"],
         "correct": 1
     },
