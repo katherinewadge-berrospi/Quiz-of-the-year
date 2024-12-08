@@ -4,9 +4,10 @@ const answerOne = document.getElementById("answerOne");
 const answerTwo = document.getElementById("answerTwo");
 const answerThree = document.getElementById("answerThree");
 const answerFour = document.getElementById("answerFour");
-const score = document.getElementById("score");
+const correctScore = document.getElementById("correct");
+const incorrectScore = document.getElementById("incorrect");
 const again = document.getElementById("again");
-const wrapper = document.getElementById("wrapper");
+const endMessage = document.getElementById("endMessage");
 
 let questionNum = 0;
 let scoreNum = 0;
