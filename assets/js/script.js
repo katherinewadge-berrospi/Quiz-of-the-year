@@ -56,7 +56,10 @@ function checkCorrect(answerNum){
     let correctAns = questions[questionNum].correct;
     if (answerNum === correctAns) {
         scoreNum++;
-        score.innerText = scoreNum;
+        correctScore.innerText = scoreNum;
+    } else {
+        let incorrectNum = parseInt(incorrectScore.innerText) + 1;
+        incorrectScore.innerText = incorrectNum;
     }
     questionNum++;
     if (questionNum === quizLength){
