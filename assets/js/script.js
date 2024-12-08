@@ -83,10 +83,16 @@ function finishOption(chosen){
     }
 }
 
-function start(){
-  again.style.visibility = "hidden";
-  loadQuestion(questionNum);
-  loadAnswers(questionNum);
+function start() {
+    if (questions.length === 0) {
+        endMessage.innerHTML = "<h2>No questions available. Please try again later!</h2>";
+        return;
+    }
+    again.style.visibility = "hidden";
+    correctScore.innerText = "0";
+    incorrectScore.innerText = "0";
+    loadQuestion(questionNum);
+    loadAnswers(questionNum);
 }
 
 start();
