@@ -16,22 +16,22 @@ let scoreNum = 0;
 const questions = [
     {
         "question": "Which sport made its debut at the 2024 Paris Olympics this year?",
-        "answers": ["1a", "1b", "Break dancing", "1d"],
+        "answers": ["Surfing", "Climbing", "Break dancing", "Lacrosse"],
         "correct": 2
     },
     {
         "question": "What fish made a surprising return to UK seas?",
-        "answers": ["Bluefin tuna", "2b", "3c", "4d"],
+        "answers": ["Bluefin tuna", "Clownfish", "Mackerel", "Haddock"],
         "correct": 0
     },
     {
-        "question": "Conservative party lost election after how many years in power?",
-        "answers": ["3a", "3b", "3c", "14"],
+        "question": "Conservative party lost the general election after how many years in power?",
+        "answers": ["18", "13", "11", "14"],
         "correct": 3
     },
     {
         "question": "Which was the best selling beer this year?",
-        "answers": ["4a", "Stella Artois", "4c", "4d"],
+        "answers": ["Carling", "Stella Artois", "Fosters", "Moretti"],
         "correct": 1
     },
 ]
