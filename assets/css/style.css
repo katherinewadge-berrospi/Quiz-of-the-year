@@ -30,7 +30,8 @@ div {
 
 button {
     padding: 10px;
-    width: 20%;
+    max-width: 150px;
+    min-width: 120px;
 }
 
 #correct {
