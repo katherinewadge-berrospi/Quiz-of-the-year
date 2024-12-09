@@ -1,9 +1,30 @@
 /* general style */
 body {
-    margin-top: 5rem;
+    margin: 5rem 0 0 0;
     color: rgb(21, 0, 49);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/001/225/697/non_2x/blue-and-pink-geometric-design-vector.jpg");
+}
+
+#background {
+    background:
+        radial-gradient(
+            rgb(103, 44, 197) 40px,
+            transparent 0,
+            transparent 100%
+        ),
+        radial-gradient(
+            rgb(161, 103, 255) 40px,
+            transparent 0,
+            transparent 100%
+        ),
+        radial-gradient(
+            rgb(163, 82, 255) 40px,
+            transparent 0,
+            transparent 100%
+        ), rgb(213, 162, 255);
+    background-blend-mode: multiply;
+    background-size: 100px 100px;
+    background-position: 0 0, 33px 33px, -33px -33px;
 }
 
 div {
