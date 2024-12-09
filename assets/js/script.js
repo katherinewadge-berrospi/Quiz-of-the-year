@@ -15,23 +15,23 @@ let scoreNum = 0;
 // example questions, final questions still to be added
 const questions = [
     {
-        "question": "What is question 1?",
-        "answers": ["1a", "1b", "yes", "1d"],
+        "question": "Which sport made its debut at the 2024 Paris Olympics this year?",
+        "answers": ["1a", "1b", "Break dancing", "1d"],
         "correct": 2
     },
     {
-        "question": "What is question 2?",
-        "answers": ["yes", "2b", "3c", "4d"],
+        "question": "What fish made a surprising return to UK seas?",
+        "answers": ["Bluefin tuna", "2b", "3c", "4d"],
         "correct": 0
     },
     {
-        "question": "What is question 3?",
-        "answers": ["3a", "3b", "3c", "yes"],
+        "question": "Conservative party lost election after how many years in power?",
+        "answers": ["3a", "3b", "3c", "14"],
         "correct": 3
     },
     {
-        "question": "What is question 4?",
-        "answers": ["4a", "yes", "4c", "4d"],
+        "question": "Which was the best selling beer this year?",
+        "answers": ["4a", "Stella Artois", "4c", "4d"],
         "correct": 1
     },
 ]
