@@ -11,12 +11,12 @@ body {
     font-size: 2rem;
 }
 .logo {
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
 }
 .logo-two {
-    height: 5rem;
-    width: 6rem;
+    height: 4rem;
+    width: 4.75rem;
 }
 
 div {
@@ -57,7 +57,12 @@ button {
         font-size: 1.5rem;
     }
     .logo {
-        height: 4rem;
+        height: 3rem;
+        width: 3rem;
+    }
+    .logo-two {
+        height: 3rem;
+        width: 3.5rem;
     }
 }
 
@@ -73,10 +78,14 @@ button {
         padding: 0.5rem;
     }
     .heading {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .logo {
         height: 2rem;
         width: 2rem;
+    }
+    .logo-two {
+        height: 2rem;
+        width: 2.5rem;
     }
 }
