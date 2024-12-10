@@ -39,7 +39,7 @@ div {
 
 /* header area */
 header {
-    background-color: rgb(223, 218, 241);
+    background-color: rgba(223, 218, 241, 0.719);
     position: fixed;
     top: 0;
     text-align: center;
