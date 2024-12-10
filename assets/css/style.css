@@ -37,7 +37,14 @@ div {
     font-size: large;
 }
 
-/* quiz heading area */
+/* header area */
+header {
+    background-color: beige;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+}
 
 .heading {
     text-align: center;
