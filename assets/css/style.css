@@ -132,13 +132,16 @@ button:hover {
 footer {
     text-align: center;
     background-color:#180038b6;
-    color: rgb(238, 225, 248);
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 40px;
     padding: 0 0;
     font-size: small;
+}
+
+a {
+        color: rgb(238, 225, 248);
 }
 
 /* using different media */
