@@ -91,11 +91,11 @@ button {
 }
 
 button:hover {
-    background-color: rgba(55, 9, 107, 0.705);
     color: white;
-    font-weight: bold;
-    font-size: medium;
-  }
+    border: 2px solid rgb(214, 0, 0);
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 /* score area style */
 
