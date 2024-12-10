@@ -97,6 +97,14 @@ button:hover {
     text-decoration: underline;
 }
 
+.playAgain:hover {
+    color: rgb(5, 3, 121);
+    background-color: rgb(162, 170, 240);
+    border: 2px solid rgb(14, 0, 214);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 /* score area style */
 
 .scores {
