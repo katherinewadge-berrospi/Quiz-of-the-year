@@ -1,4 +1,4 @@
-// getElementById...
+// all the getElementById in this file.
 const question = document.getElementById("question");
 const answerOne = document.getElementById("answerOne");
 const answerTwo = document.getElementById("answerTwo");
@@ -12,7 +12,7 @@ const endMessage = document.getElementById("endMessage");
 let questionNum = 0;
 let scoreNum = 0;
 
-// example questions, final questions still to be added
+// final 10 question and their answers.
 const questions = [
     {
         "question": "Which sport made its debut at the 2024 Paris Olympics this year?",
@@ -110,8 +110,7 @@ function checkCorrect(answerNum){
 }
 
 /**
- * This function is responsible for making the replay question box appear after
- * answering the last question.
+ * This function is responsible for making the replay question box appear after answering the last question.
  */
 function finish() {
     again.style.visibility = "visible";
