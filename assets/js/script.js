@@ -84,6 +84,12 @@ function loadAnswers(questionNum) {
     answerFour.innerText = questions[questionNum].answers[3];
   }
 
+  /** 
+ * This function is responsible for checking the correct answer has been selected.
+ * It also increases the score by 1 point to either the correct or incorrect score.
+ * Lastly, it also checks if there are more questions to be loaded, finishing the quiz if none.
+ * @param {int} answerNum 
+ */
 function checkCorrect(answerNum){
     console.log("answer chosen: ", answerNum);
     let correctAns = questions[questionNum].correct;
