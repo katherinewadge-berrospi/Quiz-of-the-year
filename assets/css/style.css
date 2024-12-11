@@ -205,13 +205,13 @@ a {
 @media (max-width:330px) {
     body{
         margin: 0px;
-        margin-top: 9rem;
+        margin-top: 7.5rem;
         font-size: small;
     }
 
     div {
         width: 90%;
-        padding: 1rem;
+        padding: 0.25rem;
     }
     h1 {
         margin: 1rem;
