@@ -41,7 +41,7 @@ const questions = [
     },
     {
         "question": "Which bridge collapsed after a collision with a ship?",
-        "answers": ["Key Bridge", "Golden Gate Bridge", "Tower bridge", "Syndey Harbour Bridge"],
+        "answers": ["Key Bridge", "Golden Gate Bridge", "Tower bridge", "Brooklyn Bridge"],
         "correct": 0
     },
     {
