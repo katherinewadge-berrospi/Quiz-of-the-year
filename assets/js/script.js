@@ -130,6 +130,9 @@ function finishOption(chosen){
     }
 }
 
+/**
+ * This function is responsible for starting the quiz
+ */
 function start() {
     if (questions.length === 0) {
         endMessage.innerHTML = "<h2>No questions available. Please try again later!</h2>";
