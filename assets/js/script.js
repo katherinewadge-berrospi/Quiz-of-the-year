@@ -118,6 +118,10 @@ function finish() {
     again.style.visibility = "visible";
 }
 
+/**
+ * This function is responsible for either reloading the quiz, or displaying the thank you message.
+ * @param {int} chosen
+ */
 function finishOption(chosen){
     if (chosen === 0) {
         window.location.reload();
