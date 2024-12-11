@@ -12,7 +12,7 @@ const endMessage = document.getElementById("endMessage");
 let questionNum = 0;
 let scoreNum = 0;
 
-// final 10 question and their answers.
+// final 10 questions and their answers.
 const questions = [
     {
         "question": "Which sport made its debut at the 2024 Paris Olympics this year?",
@@ -36,32 +36,32 @@ const questions = [
     },
     {
         "question": "Who became all-time leading scorer in NCAA basketball?",
-        "answers": ["x", "Caitlin Clark", "x", "x"],
+        "answers": ["Ryan Nembhard", "Caitlin Clark", "Lebron James", "Pete Maravich"],
         "correct": 1
     },
     {
         "question": "Which bridge collapsed after a collision with a ship?",
-        "answers": ["Key Bridge", "x", "x", "x"],
+        "answers": ["Key Bridge", "Golden Gate Bridge", "Tower bridge", "Syndey Harbour Bridge"],
         "correct": 0
     },
     {
         "question": "Madonna broke the record for the largest stand-alone concert in which country?",
-        "answers": ["x", "x", "x", "Brazil"],
+        "answers": ["USA", "France", "UK", "Brazil"],
         "correct": 3
     },
     {
         "question": "Which ex TV presenter was found guilty of 34 felony charges?",
-        "answers": ["x", "x", "Donald Trump", "x"],
+        "answers": ["Louis Theroux", "Jimmy Kimmel", "Donald Trump", "Oprah Winfrey"],
         "correct": 2
     },
     {
         "question": "Where did the UK place on the medals table after the 2024 Paris Olympics?",
-        "answers": ["x", "7th", "x", "x"],
+        "answers": ["3rd", "7th", "9th", "6th"],
         "correct": 1
     },
     {
-        "question": "Which Latin American country elected its first femlale president?",
-        "answers": ["x", "x", "x", "Mexico"],
+        "question": "Which of these Latin American countries elected its first female president in 2024?",
+        "answers": ["Peru", "Chile", "Colombia", "Mexico"],
         "correct": 3
     },
 ];
