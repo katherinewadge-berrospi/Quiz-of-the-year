@@ -73,6 +73,10 @@ function loadQuestion(questionNum){
     question.innerText = questions[questionNum].question;
 }
 
+/**
+ * This function is responsible for loading the question's answers into the four buttons.
+ * @param {int} questionNumb 
+ */
 function loadAnswers(questionNum) {
     answerOne.innerText = questions[questionNum].answers[0];
     answerTwo.innerText = questions[questionNum].answers[1];
@@ -80,7 +84,6 @@ function loadAnswers(questionNum) {
     answerFour.innerText = questions[questionNum].answers[3];
   }
 
-// checks the answer that was clicked
 function checkCorrect(answerNum){
     console.log("answer chosen: ", answerNum);
     let correctAns = questions[questionNum].correct;
