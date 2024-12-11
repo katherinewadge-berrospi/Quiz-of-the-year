@@ -201,3 +201,28 @@ a {
         width: 2.5rem;
     }
 }
+
+@media (max-width:330px) {
+    body{
+        margin: 0px;
+        margin-top: 9rem;
+        font-size: small;
+    }
+
+    div {
+        width: 90%;
+        padding: 1rem;
+    }
+    h1 {
+        margin: 1rem;
+        font-size: 2rem;
+    }
+    .logo {
+        height: 2rem;
+        width: 2rem;
+    }
+    .logo-two {
+        height: 2rem;
+        width: 2.5rem;
+    }
+}
