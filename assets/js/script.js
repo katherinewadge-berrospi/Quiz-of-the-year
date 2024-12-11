@@ -70,6 +70,7 @@ let quizLength = questions.length;
 
 // functions to load questions and answers
 function loadQuestion(questionNum){
+    "use strict";
     question.innerText = questions[questionNum].question;
 }
 
@@ -78,6 +79,7 @@ function loadQuestion(questionNum){
  * @param {int} questionNumb 
  */
 function loadAnswers(questionNum) {
+    "use strict";
     answerOne.innerText = questions[questionNum].answers[0];
     answerTwo.innerText = questions[questionNum].answers[1];
     answerThree.innerText = questions[questionNum].answers[2];
@@ -91,6 +93,7 @@ function loadAnswers(questionNum) {
  * @param {int} answerNum 
  */
 function checkCorrect(answerNum){
+    "use strict";
     console.log("answer chosen: ", answerNum);
     let correctAns = questions[questionNum].correct;
     if (answerNum === correctAns) {
@@ -113,6 +116,7 @@ function checkCorrect(answerNum){
  * This function is responsible for making the replay question box appear after answering the last question.
  */
 function finish() {
+    "use strict";
     again.style.visibility = "visible";
 }
 
@@ -121,6 +125,7 @@ function finish() {
  * @param {int} chosen
  */
 function finishOption(chosen){
+    "use strict";
     if (chosen === 0) {
         window.location.reload();
     } else {
@@ -133,6 +138,7 @@ function finishOption(chosen){
  * This function is responsible for starting the quiz
  */
 function start() {
+    "use strict";
     if (questions.length === 0) {
         endMessage.innerHTML = "<h2>No questions available. Please try again later!</h2>";
         return;
