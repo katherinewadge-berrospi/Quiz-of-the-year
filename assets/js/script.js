@@ -124,7 +124,7 @@ function finishOption(chosen){
     if (chosen === 0) {
         window.location.reload();
     } else {
-        endMessage.innerHTML = "<h2>Thank you for playing!</h2>";
+        endMessage.innerHTML = "<h1>Thank you for playing!</h1>";
         document.querySelector(".quiz-area").style.display = "none";
     }
 }
