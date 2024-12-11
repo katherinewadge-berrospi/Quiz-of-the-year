@@ -109,6 +109,11 @@ function checkCorrect(answerNum){
     }
 }
 
+/**
+ * This function is responsible for making the replay question box appear after
+ * answering the last question.
+ * @param {int}
+ */
 function finish() {
     again.style.visibility = "visible";
 }
