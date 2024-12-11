@@ -34,7 +34,37 @@ const questions = [
         "answers": ["Carling", "Stella Artois", "Fosters", "Moretti"],
         "correct": 1
     },
-]
+    {
+        "question": "Who became all-time leading scorer in NCAA basketball?",
+        "answers": ["x", "Caitlin Clark", "x", "x"],
+        "correct": 1
+    },
+    {
+        "question": "Which bridge collapsed after a collision with a ship?",
+        "answers": ["Key Bridge", "x", "x", "x"],
+        "correct": 0
+    },
+    {
+        "question": "Madonna broke the record for the largest stand-alone concert in which country?",
+        "answers": ["x", "x", "x", "Brazil"],
+        "correct": 3
+    },
+    {
+        "question": "Which ex TV presenter was found guilty of 34 felony charges?",
+        "answers": ["x", "x", "Donald Trump", "x"],
+        "correct": 2
+    },
+    {
+        "question": "Where did the UK place on the medals table after the 2024 Paris Olympics?",
+        "answers": ["x", "7th", "x", "x"],
+        "correct": 1
+    },
+    {
+        "question": "Which Latin American country elected its first femlale president?",
+        "answers": ["x", "x", "x", "Mexico"],
+        "correct": 3
+    },
+];
 
 let quizLength = questions.length;
 
