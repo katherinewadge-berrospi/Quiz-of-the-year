@@ -63,3 +63,12 @@ After all the debugging, the deployed cite passed all the checks using The W3C M
 
 <strong>JavaScript</strong> passed all the validator checks.
 ![JShintValidator](assets/images/jshint-validator.jpg)
+
+### Lighthouse Testing
+In both the dektop and the mobile layout, the lighthouse results were identical and both showed top scores across the board.
+
+For Desktop:
+![LighthouseDesktop](assets/images/lighthouse-desktop.jpg)
+
+For Mobile:
+![LighthouseMobile](assets/images/lighthouse-mobile.jpg)
