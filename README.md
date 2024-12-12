@@ -35,3 +35,11 @@ The second header is displayed once the "no" button is clicked to end the quiz. 
 ![EndMessageMobile](assets/images/thanks-header-mobile.jpg)
 
 Both headers are clearly visible on all devices and also compliment the colour scheme. The background colour is a light purple with transparancy so that the main backdrop of circles is still visible, and the dark purple font ties in with the whole page.
+
+### Logos
+The images chosen are related to the quiz and act as logos/stickers that sandwich the main header "Quiz Of The Year!". The first one is a vibrant cartoon image of a human head full of abstract shapes and different colours to show how the brain is unique. The second is an image of the year "2024" and is at a slant to make irts appearance fun and it shows that the quiz is about the year 2024 to the audience.
+
+![HeadCartoon](assets/images/thinking-brain.jpg)
+![2024](assets/images/year-logo.jpg)
+
+
