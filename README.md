@@ -16,50 +16,54 @@ Contents:
 ## Introduction
 
 ### Audience:
-The Quiz Of The Year if suitable for anyone wanting to test out their general knowledge of events that occured in 2024. It raises awareness of all types of news from sporting events, politics, and celebrities.
+The Quiz Of The Year is suitable for anyone wanting to test their general knowledge of events that occurred in 2024. It raises awareness of all types of news, including sporting events, politics, and celebrity happenings.
 
 ### Client side:
-This site is easy to use with clear sections which include a header that changes once the quiz if completed, the quiz area that hosts the questions and the answer buttons, a score area that tallies correct and incorrect answers, and finally a pop-up play again question to either restart quiz or displays a thank you for playing message. This layout is aligned centrally and is accessible on all devices. The fun colour scheme, with background circles, is fun and lively with a clear font that is also in the shade of dark purple to subtily compliment the overall colour scheme. The buttons that display the answers are also all coloured in pastel colours so that the text can still be easily read that changes when the mouse hovers. These changes include a red border with a white underlined text and the curser turns into a pointer.
+This site is easy to use with clear sections, which include a header that changes once the quiz is completed, a quiz area that hosts the questions and answer buttons, a score area that tallies correct and incorrect answers, and finally a pop-up play-again question that either restarts the quiz or displays a thank-you-for-playing message.
 
+This layout is aligned centrally and is accessible on all devices. The fun colour scheme, with background circles, is lively and engaging, complemented by a clear font in a dark purple shade to subtly match the overall design. The buttons displaying the answers are pastel-coloured for readability and change in appearance when hovered over. These changes include a red border, underlined white text, and the cursor turning into a pointer.
 
 ## Features
 
 ### Header
-There are two versions of the header on the live site. The main header is displayed throughout the quiz, spanning 100% the width of the screen and the font and logos decrease in size as the device gets smaller.
+There are two versions of the header on the live site. The main header is displayed throughout the quiz, spanning 100% of the screen width. The font and logos decrease in size as the screen size gets smaller.
 
 ![MainHeaderDesktop](assets/images/header-desktop.jpg)
 ![MainHeaderMobile](assets/images/header-mobile.jpg)
 
-The second header is displayed once the "no" button is clicked to end the quiz. It spans 100% the width of the screen and the font decreases in size as the device gets smaller.
+The second header is displayed once the "No" button is clicked to end the quiz. It spans 100% of the screen width, and the font decreases in size on smaller devices.
 
 ![EndMessageDesktop](assets/images/thanks-header-desktop.jpg)
 ![EndMessageMobile](assets/images/thanks-header-mobile.jpg)
 
-Both headers are clearly visible on all devices and also compliment the colour scheme. The background colour is a light purple with transparancy so that the main backdrop of circles is still visible, and the dark purple font ties in with the whole page.
+Both headers are clearly visible on all devices and complement the colour scheme. The background colour is a light purple with transparency, allowing the main backdrop circles to show through. The dark purple font ties the design together.
 
 ### Logos
-The images chosen are related to the quiz and act as logos/stickers that sandwich the main header "Quiz Of The Year!". The first one is a vibrant cartoon image of a human head full of abstract shapes and different colours to show how the brain is unique. The second is an image of the year "2024" and is at a slant to make irts appearance fun and it shows that the quiz is about the year 2024 to the audience.
+The logos are related to the quiz and serve as visual anchors, flanking the main header "Quiz Of The Year!".
+
+- The first logo is a vibrant cartoon image of a human head filled with abstract shapes and colours, symbolizing creativity and uniqueness.
+- The second logo displays "2024" at a slant, adding a fun and dynamic element that emphasizes the quiz's focus on the year 2024.
 
 ![HeadCartoon](assets/images/thinking-brain.jpg)
 ![2024](assets/images/year-logo.jpg)
 
 ### Quiz Area
-The main quiz area is light in colour for good contrast with the dark purple font and it outlined with a dark purple border. The font size is legible on all screen sizes and it is clear that the answers below are interactive as when you hover over them, they change in appearance as does the cursor.
+The quiz area is light-coloured for good contrast with the dark purple font. It is outlined with a dark purple border. The font size is legible on all screen sizes, and the interactivity of the answer buttons is clearly signaled by hover effects.
 
 ![QuizArea](assets/images/quiz-area.jpg)
 
 ### Score Area
-The score area is updated after each question in asnwered, showing users a glimpse as to how well they are doing then and there. The scores are all in bold for easy viewing and the correct score is green while the incorrect score is in red.
+The score area updates dynamically after each question, giving users instant feedback on their progress. The scores are bold and colour-coded for clarity: green for correct answers and red for incorrect ones.
 
 ![ScoreArea](assets/images/score-area.jpg)
 
 ### Play Again?
-The play again question box is hidden throuhgout the quiz until the end when the user has decided they don't want to play again. It follows the same styling as the other areas, however, unlike the answer buttons, the yes/no buttons are plain in colour and change to blue when hovering over them.
+The play-again question box is hidden during the quiz and only appears at the end. It follows the same styling as other sections. Unlike the answer buttons, the "Yes" and "No" buttons are plain in colour but turn blue when hovered over.
 
 ![PlayAgain?](assets/images/play-again.jpg)
 
 ### Footer
-The footer was kept simple, and fixed to the bottom. the background colour was a dark purple that was made transparent so that the background circles could show through the footer. There is also an active link that takes you to the Spocle website, a public site full of quizes, when you click on "find more quizes!".
+The footer is simple and fixed to the bottom of the screen. Its dark purple background is semi-transparent, allowing the background circles to show through. It also features a clickable link to the Sporcle website, where users can find more quizzes.
 
 ![Footer](assets/images/footer.jpg)
 
@@ -123,7 +127,7 @@ https://jshint.com/
 
 Google Dev Tools - Lighthouse
 
-## Tutorials and advice
+### Tutorials and advice
 https://www.w3schools.com/
 
 https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a/
@@ -134,7 +138,7 @@ https://stackoverflow.com/questions/8107000/jshint-com-requires-use-strict-what-
 
 https://developer.mozilla.org/en-US/docs/Web/Events
 
-https://ui.dev/amiresponsive?
+https://ui.dev/amiresponsive
 
 https://github.com/Code-Institute-Solutions/readme-template?tab=readme-ov-file
 
