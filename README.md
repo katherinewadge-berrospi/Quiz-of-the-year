@@ -110,3 +110,32 @@ Potential code improvements:
 2. Could find a way to merge the 2 functions (loadQuations and load Answers) into 1 large function for more efficiency.
 3. Could also add a timer to countdown how long users have to complete the quiz, to make things more interesting.
 4. Small sound effects could also be added.
+
+
+## Credits
+
+### Testing:
+https://validator.w3.org/
+
+https://jigsaw.w3.org/css-validator/
+
+https://jshint.com/
+
+Google Dev Tools - Lighthouse
+
+## Tutorials and advice
+https://www.w3schools.com/
+
+https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a/
+
+https://www.britannica.com/topic/2024-Year-in-Review
+
+https://stackoverflow.com/questions/8107000/jshint-com-requires-use-strict-what-does-this-mean
+
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+https://ui.dev/amiresponsive?
+
+https://github.com/Code-Institute-Solutions/readme-template?tab=readme-ov-file
+
+Thank you to my Mentor Spencer Barriball for his support and guidance.
