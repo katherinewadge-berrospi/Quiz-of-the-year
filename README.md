@@ -46,3 +46,20 @@ The images chosen are related to the quiz and act as logos/stickers that sandwic
 The footer was kept simple, and fixed to the bottom. the background colour was a dark purple that was made transparent so that the background circles could show through the footer. There is also an active link that takes you to the Spocle website, a public cite full of quizes, when you click on "find more quizes!".
 
 ![Footer](assets/images/footer.jpg)
+
+
+## Testing
+
+### Validator Testing
+The code in all 3 files (index.html, style.css, and script.js) was constantly checked for any bugs throughout the project before adding more features. Various styles were trialled, such as having the title as a top div and not in the header, and when hovering over the answer buttons, the buttons wold increase in size which was later changed to stay consistent in size and instead changing the cursor, the border, and the font colour. There were errors in the html or css checks, but JSHint advised to use "use strict" within all the functions in JavaScript and said I had missed one semicolon.
+
+After all the debugging, the deployed cite passed all the checks using The W3C Markup Validator, W3C CSS Validator Services, and JSHint.
+
+<strong>HTML</strong> passed all the validator checks.
+![HTMLvalidator](assets/images/html-validator.jpg)
+
+<strong>CSS</strong> passed all the validator checks.
+![CSSvalidator](assets/images/css-validator.jpg)
+
+<strong>JavaScript</strong> passed all the validator checks.
+![JShintValidator](assets/images/jshint-validator.jpg)
