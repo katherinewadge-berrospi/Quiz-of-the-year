@@ -42,4 +42,7 @@ The images chosen are related to the quiz and act as logos/stickers that sandwic
 ![HeadCartoon](assets/images/thinking-brain.jpg)
 ![2024](assets/images/year-logo.jpg)
 
+### Footer
+The footer was kept simple, and fixed to the bottom. the background colour was a dark purple that was made transparent so that the background circles could show through the footer. There is also an active link that takes you to the Spocle website, a public cite full of quizes, when you click on "find more quizes!".
 
+![Footer](assets/images/footer.jpg)
