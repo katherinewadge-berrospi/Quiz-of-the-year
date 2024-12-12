@@ -71,24 +71,26 @@ The footer is simple and fixed to the bottom of the screen. Its dark purple back
 ## Testing
 
 ### Validator Testing
-The code in all 3 files (index.html, style.css, and script.js) was constantly checked for any bugs throughout the project before adding more features. Various styles were trialled, such as having the title as a top div and not in the header, and when hovering over the answer buttons, the buttons wold increase in size which was later changed to stay consistent in size and instead changing the cursor, the border, and the font colour. There were errors in the html or css checks, but JSHint advised to use "use strict" within all the functions in JavaScript and said I had missed one semicolon.
+The code in all three files (index.html, style.css, and script.js) was regularly checked for bugs before adding more features.
+For example:
+- Various styles were trialed, such as positioning the title in a separate top div instead of the header.
+- An earlier version made the buttons grow larger on hover, which was replaced with a more subtle effect that changes the cursor, border, and font color.
 
-After all the debugging, the deployed site passed all the checks using The W3C Markup Validator, W3C CSS Validator Services, and JSHint.
 
-<strong>HTML</strong> passed all the validator checks.
+<strong>HTML</strong> passed all the validator checks using W3C Markup Validator.
 
 ![HTMLvalidator](assets/images/html-validator.jpg)
 
-<strong>CSS</strong> passed all the validator checks.
+<strong>CSS</strong> passed all the validator checks using W3C CSS Validator.
 
 ![CSSvalidator](assets/images/css-validator.jpg)
 
-<strong>JavaScript</strong> passed all the validator checks.
+<strong>JavaScript</strong> passed all the validator checks using JSHint on the second attempt. JSHint had recommended adding "use strict" and fixing a missing semicolon.
 
 ![JShintValidator](assets/images/jshint-validator.jpg)
 
 ### Lighthouse Testing
-In both the dektop and the mobile layout, the lighthouse results were identical and both showed top scores across the board.
+Both desktop and mobile layouts achieved top scores across all categories in Lighthouse testing.
 
 For Desktop:
 
@@ -103,17 +105,17 @@ For Mobile:
 The site was deployed via GitHub using the 'Pages' section in the repository's 'Settings' tab, and under the 'Source' dropdown, the main branch was selected. The deployed site's URL is provided at the top of 'Pages', which was copied into the browser to double check the functionality. The site was tested on Chrome, MS Edge and Firefox, all of which displayed the content correctly.
 
 ## Future
-Potential visual changes:
-1. The layout and spacing could be improved on the desktop layout, although a little difficult when using a laptop to write the website.
-2. Only used basic fonts, although this does mean it is more compatible on different devices.
-3. When the correct/ incorrect answer is clicked it could also change colour to green/ red, respectively, as well as keeping tally at the bottom.
-4. The finish screen looks a little plain, could add animation/ gifs/ large image to say thank you instead.
+Visual Changes:
+1. Improve layout and spacing for the desktop version, especially around the quiz area and score area.
+2. Explore more advanced typography for a modern look.
+3. Add colour feedback for correct/incorrect answers on button clicks (e.g., green/red).
+4. Enhance the finish screen with animations, GIFs, or a larger image.
 
-Potential code improvements:
-1. The <onlick> is outdated and hard to maintain, use more addEventListener for cleaner code.
-2. Could find a way to merge the 2 functions (loadQuations and load Answers) into 1 large function for more efficiency.
-3. Could also add a timer to countdown how long users have to complete the quiz, to make things more interesting.
-4. Small sound effects could also be added.
+Code Improvements:
+1. Replace onclick attributes with modern addEventListener for cleaner, more maintainable code.
+2. Merge loadQuestions and loadAnswers into a single function for efficiency.
+3. Add a timer to make the quiz more challenging.
+4. Introduce sound effects for correct/incorrect answers or the end screen.
 
 
 ## Credits
