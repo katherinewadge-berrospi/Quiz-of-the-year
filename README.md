@@ -20,3 +20,18 @@ The Quiz Of The Year if suitable for anyone wanting to test out their general kn
 
 ### Client side:
 This site is easy to use with clear sections which include a header that changes once the quiz if completed, the quiz area that hosts the questions and the answer buttons, a score area that tallies correct and incorrect answers, and finally a pop-up play again question to either restart quiz or displays a thank you for playing message. This layout is aligned centrally and is accessible on all devices. The fun colour scheme, with background circles, is fun and lively with a clear font that is also in the shade of dark purple to subtily compliment the overall colour scheme. The buttons that display the answers are also all coloured in pastel colours so that the text can still be easily read that changes when the mouse hovers. These changes include a red border with a white underlined text and the curser turns into a pointer.
+
+
+## Features
+
+### Header
+There are two versions of the header on the live cite. The main header is displayed throughout the quiz, spanning 100% the width of the screen and the font and logos decrease in size as the device gets smaller.
+
+![MainHeaderDesktop](assets/images/header-desktop.jpg)
+![MainHeaderMobile](assets/images/header-mobile.jpg)
+
+The second header is displayed once the "no" button is clicked to end the quiz. It spans 100% the width of the screen and the font decreases in size as the device gets smaller.
+![EndMessageDesktop](assets/images/thanks-header-desktop.jpg)
+![EndMessageMobile](assets/images/thanks-header-mobile.jpg)
+
+Both headers are clearly visible on all devices and also compliment the colour scheme. The background colour is a light purple with transparancy so that the main backdrop of circles is still visible, and the dark purple font ties in with the whole page.
