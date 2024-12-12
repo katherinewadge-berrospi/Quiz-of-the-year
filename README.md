@@ -98,3 +98,15 @@ For Mobile:
 ## Deployment
 The site was deployed via GitHub using the 'Pages' section in the repository's 'Settings' tab, and under the 'Source' dropdown, the main branch was selected. The deployed site's URL is provided at the top of 'Pages', which was copied into the browser to double check the functionality. The site was tested on Chrome, MS Edge and Firefox, all of which displayed the content correctly.
 
+## Future
+Potential visual changes:
+1. The layout and spacing could be improved on the desktop layout, although a little difficult when using a laptop to write the website.
+2. Only used basic fonts, although this does mean it is more compatible on different devices.
+3. When the correct/ incorrect answer is clicked it could also change colour to green/ red, respectively, as well as keeping tally at the bottom.
+4. The finish screen looks a little plain, could add animation/ gifs/ large image to say thank you instead.
+
+Potential code improvements:
+1. The <onlick> is outdated and hard to maintain, use more addEventListener for cleaner code.
+2. Could find a way to merge the 2 functions (loadQuations and load Answers) into 1 large function for more efficiency.
+3. Could also add a timer to countdown how long users have to complete the quiz, to make things more interesting.
+4. Small sound effects could also be added.
