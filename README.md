@@ -25,7 +25,7 @@ This site is easy to use with clear sections which include a header that changes
 ## Features
 
 ### Header
-There are two versions of the header on the live cite. The main header is displayed throughout the quiz, spanning 100% the width of the screen and the font and logos decrease in size as the device gets smaller.
+There are two versions of the header on the live site. The main header is displayed throughout the quiz, spanning 100% the width of the screen and the font and logos decrease in size as the device gets smaller.
 
 ![MainHeaderDesktop](assets/images/header-desktop.jpg)
 ![MainHeaderMobile](assets/images/header-mobile.jpg)
@@ -59,7 +59,7 @@ The play again question box is hidden throuhgout the quiz until the end when the
 ![PlayAgain?](assets/images/play-again.jpg)
 
 ### Footer
-The footer was kept simple, and fixed to the bottom. the background colour was a dark purple that was made transparent so that the background circles could show through the footer. There is also an active link that takes you to the Spocle website, a public cite full of quizes, when you click on "find more quizes!".
+The footer was kept simple, and fixed to the bottom. the background colour was a dark purple that was made transparent so that the background circles could show through the footer. There is also an active link that takes you to the Spocle website, a public site full of quizes, when you click on "find more quizes!".
 
 ![Footer](assets/images/footer.jpg)
 
@@ -69,7 +69,7 @@ The footer was kept simple, and fixed to the bottom. the background colour was a
 ### Validator Testing
 The code in all 3 files (index.html, style.css, and script.js) was constantly checked for any bugs throughout the project before adding more features. Various styles were trialled, such as having the title as a top div and not in the header, and when hovering over the answer buttons, the buttons wold increase in size which was later changed to stay consistent in size and instead changing the cursor, the border, and the font colour. There were errors in the html or css checks, but JSHint advised to use "use strict" within all the functions in JavaScript and said I had missed one semicolon.
 
-After all the debugging, the deployed cite passed all the checks using The W3C Markup Validator, W3C CSS Validator Services, and JSHint.
+After all the debugging, the deployed site passed all the checks using The W3C Markup Validator, W3C CSS Validator Services, and JSHint.
 
 <strong>HTML</strong> passed all the validator checks.
 
@@ -93,3 +93,8 @@ For Desktop:
 For Mobile:
 
 ![LighthouseMobile](assets/images/lighthouse-mobile.jpg)
+
+
+## Deployment
+The site was deployed via GitHub using the 'Pages' section in the repository's 'Settings' tab, and under the 'Source' dropdown, the main branch was selected. The deployed site's URL is provided at the top of 'Pages', which was copied into the browser to double check the functionality. The site was tested on Chrome, MS Edge and Firefox, all of which displayed the content correctly.
+
