@@ -42,6 +42,21 @@ The images chosen are related to the quiz and act as logos/stickers that sandwic
 ![HeadCartoon](assets/images/thinking-brain.jpg)
 ![2024](assets/images/year-logo.jpg)
 
+### Quiz Area
+The main quiz area is light in colour for good contrast with the dark purple font and it outlined with a dark purple border. The font size is legible on all screen sizes and it is clear that the answers below are interactive as when you hover over them, they change in appearance as does the cursor.
+
+![QuizArea](assets/images/quiz-area.jpg)
+
+### Score Area
+The score area is updated after each question in asnwered, showing users a glimpse as to how well they are doing then and there. The scores are all in bold for easy viewing and the correct score is green while the incorrect score is in red.
+
+![ScoreArea](assets/images/score-area.jpg)
+
+### Play Again?
+The play again question box is hidden throuhgout the quiz until the end when the user has decided they don't want to play again. It follows the same styling as the other areas, however, unlike the answer buttons, the yes/no buttons are plain in colour and change to blue when hovering over them.
+
+![PlayAgain?](assets/images/play-again.jpg)
+
 ### Footer
 The footer was kept simple, and fixed to the bottom. the background colour was a dark purple that was made transparent so that the background circles could show through the footer. There is also an active link that takes you to the Spocle website, a public cite full of quizes, when you click on "find more quizes!".
 
