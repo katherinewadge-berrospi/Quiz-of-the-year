@@ -31,6 +31,7 @@ There are two versions of the header on the live cite. The main header is displa
 ![MainHeaderMobile](assets/images/header-mobile.jpg)
 
 The second header is displayed once the "no" button is clicked to end the quiz. It spans 100% the width of the screen and the font decreases in size as the device gets smaller.
+
 ![EndMessageDesktop](assets/images/thanks-header-desktop.jpg)
 ![EndMessageMobile](assets/images/thanks-header-mobile.jpg)
 
@@ -71,19 +72,24 @@ The code in all 3 files (index.html, style.css, and script.js) was constantly ch
 After all the debugging, the deployed cite passed all the checks using The W3C Markup Validator, W3C CSS Validator Services, and JSHint.
 
 <strong>HTML</strong> passed all the validator checks.
+
 ![HTMLvalidator](assets/images/html-validator.jpg)
 
 <strong>CSS</strong> passed all the validator checks.
+
 ![CSSvalidator](assets/images/css-validator.jpg)
 
 <strong>JavaScript</strong> passed all the validator checks.
+
 ![JShintValidator](assets/images/jshint-validator.jpg)
 
 ### Lighthouse Testing
 In both the dektop and the mobile layout, the lighthouse results were identical and both showed top scores across the board.
 
 For Desktop:
+
 ![LighthouseDesktop](assets/images/lighthouse-desktop.jpg)
 
 For Mobile:
+
 ![LighthouseMobile](assets/images/lighthouse-mobile.jpg)
