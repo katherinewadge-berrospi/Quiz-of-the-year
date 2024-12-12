@@ -39,7 +39,7 @@ The second header is displayed once the "No" button is clicked to end the quiz. 
 Both headers are clearly visible on all devices and complement the colour scheme. The background colour is a light purple with transparency, allowing the main backdrop circles to show through. The dark purple font ties the design together.
 
 ### Logos
-The logos are related to the quiz and serve as visual anchors, flanking the main header "Quiz Of The Year!".
+The logos are related to the quiz and serve as visual anchors, flanking the main header "Quiz Of The Year!". They also both have alternative text, making it accessible to those visually impaired.
 
 - The first logo is a vibrant cartoon image of a human head filled with abstract shapes and colours, symbolizing creativity and uniqueness.
 - The second logo displays "2024" at a slant, adding a fun and dynamic element that emphasizes the quiz's focus on the year 2024.
@@ -72,9 +72,12 @@ The footer is simple and fixed to the bottom of the screen. Its dark purple back
 
 ### Validator Testing
 The code in all three files (index.html, style.css, and script.js) was regularly checked for bugs before adding more features.
+
 For example:
 - Various styles were trialed, such as positioning the title in a separate top div instead of the header.
 - An earlier version made the buttons grow larger on hover, which was replaced with a more subtle effect that changes the cursor, border, and font color.
+
+On the deployed site, there are no significant bugs to fix.
 
 
 <strong>HTML</strong> passed all the validator checks using W3C Markup Validator.
@@ -88,6 +91,7 @@ For example:
 <strong>JavaScript</strong> passed all the validator checks using JSHint on the second attempt. JSHint had recommended adding "use strict" and fixing a missing semicolon.
 
 ![JShintValidator](assets/images/jshint-validator.jpg)
+
 
 ### Lighthouse Testing
 Both desktop and mobile layouts achieved top scores across all categories in Lighthouse testing.
@@ -116,6 +120,7 @@ Code Improvements:
 2. Merge loadQuestions and loadAnswers into a single function for efficiency.
 3. Add a timer to make the quiz more challenging.
 4. Introduce sound effects for correct/incorrect answers or the end screen.
+
 
 
 ## Credits
