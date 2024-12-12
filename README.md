@@ -120,7 +120,7 @@ Code Improvements:
 2. Merge loadQuestions and loadAnswers into a single function for efficiency.
 3. Add a timer to make the quiz more challenging.
 4. Introduce sound effects for correct/incorrect answers or the end screen.
-
+5. Include incorrect-answer messages or a final summary page to improve feedback and interaction quality.
 
 
 ## Credits
